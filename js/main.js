@@ -1,1 +1,3 @@
-
+$('#bienvenido').modal({
+	show: true
+})

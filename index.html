@@ -14,28 +14,53 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+    
+
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     
-        <script type="text/javascript">
-        	alert("Bienvenido");
-        </script>
+        <div class="modal fade" id="bienvenido">
+                <div class="modal-dialog">
+                    
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <button class="close" aria-hidden="true" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Sistema de Egresados 2016</h4>
+                        </div>
+                        
+                        <div class="modal-body">
+                            <h1 class="centrado">¡BIENVENIDO!</h1>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                
+                </div>
+        </div>
         
-        <button class="btn btn-primary btn-lg">
-        	<a href="php/formulario.php" class="app-link">Sección de registros</a>
-        </button> 
+
+
+        <a href="php/formulario.php">
+	        <button class="btn btn-lg btn-primary">
+	        	Sección de registros
+	        </button> 
+		</a>
 
 
 
 
-
-
-
+		<!-- ................................. -->
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/plugins.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

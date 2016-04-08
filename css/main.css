@@ -1,15 +1,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-a{
-	text-decoration: none;
+
+.centrado{
+	text-align: center;
 }
-
-
-.app-link
-{
-	color: white;
-	text-decoration: none;
-	text-shadow: none;
-}
-
