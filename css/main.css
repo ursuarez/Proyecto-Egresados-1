@@ -1,0 +1,15 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a{
+	text-decoration: none;
+}
+
+
+.app-link
+{
+	color: white;
+	text-decoration: none;
+	text-shadow: none;
+}
+
